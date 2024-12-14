@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="FarmGame:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/FarmGame_jar</output-path>
+    <root id="archive" name="FarmGame.jar">
+      <element id="module-output" name="FarmGame" />
+      <element id="dir-copy" path="$PROJECT_DIR$/../CustomJre" />
+    </root>
+  </artifact>
+</component>
