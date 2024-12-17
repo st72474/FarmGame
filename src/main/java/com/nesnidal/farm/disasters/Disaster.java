@@ -1,4 +1,4 @@
-package com.nesnidal.farm;
+package com.nesnidal.farm.disasters;
 
 import java.util.Random;
 
@@ -12,14 +12,6 @@ public class Disaster {
     public Disaster(Random random, double probability) {
         this.rand = random;
         this.probability = probability;
-    }
-
-    public enum DisasterType {
-        NONE,
-        MOLD,
-        FREEZE,
-        DROUGHT,
-        PEST,
     }
 
     public void generateRandom() {
